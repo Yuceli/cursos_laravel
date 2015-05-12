@@ -3,11 +3,11 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="SHIELD - Free Bootstrap 3 Theme">
-    <meta name="author" content="Carlos Alvarez - Alvarez.is - blacktie.co">
+    <meta name="description" content="Women Who Code Mérida">
+    <meta name="author" content="Yuceli Polanco, Javier Ojeda">
     <link rel="shortcut icon" href="assets/ico/favicon.png">
 
-    <title> SHIELD - Free Bootstrap 3 Theme</title>
+    <title> Women Who Code Mérida</title>
 
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
@@ -47,13 +47,12 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li><a href="#home" class="smoothScroll">Home</a></li>
-			<li> <a href="#about" class="smoothScroll"> About</a></li>
-			<li> <a href="#services" class="smoothScroll"> Services</a></li>
-			<li> <a href="#team" class="smoothScroll"> Team</a></li>
-			<li> <a href="#portfolio" class="smoothScroll"> Portfolio</a></li>
-			<li> <a href="#blog" class="smoothScroll"> Blog</a></li>
-			<li> <a href="#contact" class="smoothScroll"> Contact</a></li>
+            <li><a href="#home" class="smoothScroll">Inicio</a></li>
+			<li> <a href="#about" class="smoothScroll"> Nosotros</a></li>
+			<li> <a href="#courses" class="smoothScroll"> Cursos</a></li>
+			<li> <a href="#events" class="smoothScroll"> Eventos</a></li>
+			<li> <a href="#leaders" class="smoothScroll"> Líderes</a></li>
+			<li> <a href="#contact" class="smoothScroll"> Contacto</a></li>
         </div><!--/.nav-collapse -->
       </div>
     </div>
@@ -65,47 +64,26 @@
 	    <div id="headerwrap" id="home" name="home">
 			<header class="clearfix">
 	  		 		<h1><span class="icon icon-shield"></span></h1>
-	  		 		<p>A Bootstrap 3 One Page Theme.</p>
-	  		 		<p>Exclusive for BlackTie.co.</p>
+	  		 		<p>Women Who Code</p>
+	  		 		<p>Mérida</p>
 	  		</header>	    
 	    </div><!-- /headerwrap -->
 
-		<!-- ==== GREYWRAP ==== -->
-		<div id="greywrap">
-			<div class="row">
-				<div class="col-lg-4 callout">
-					<span class="icon icon-stack"></span>
-					<h2>Bootstrap 3</h2>
-					<p>Shield Theme is powered by Bootstrap 3. The incredible Mobile First Framework is the best option to run your website. </p>
-				</div><!-- col-lg-4 -->
-					
-				<div class="col-lg-4 callout">
-					<span class="icon icon-eye"></span>
-					<h2>Retina Ready</h2>
-					<p>You can use this theme with your iPhone, iPad or MacBook Pro. This theme is retina ready and that is awesome. </p>
-				</div><!-- col-lg-4 -->	
-				
-				<div class="col-lg-4 callout">
-					<span class="icon icon-heart"></span>
-					<h2>Crafted with Love</h2>
-					<p>We don't make sites, we craft themes with love & passion. That is our most valued secret. We only do thing that we love.   </p>
-				</div><!-- col-lg-4 -->	
-			</div><!-- row -->
-		</div><!-- greywrap -->
+		
 		
 		<!-- ==== ABOUT ==== -->
 		<div class="container" id="about" name="about">
 			<div class="row white">
 			<br>
-				<h1 class="centered">A LITTLE ABOUT OUR AGENCY</h1>
+				<h1 class="centered">SOBRE LA ORGANIZACIÓN</h1>
 				<hr>
 				
 				<div class="col-lg-6">
-					<p>We believe ideas come from everyone, everywhere. In fact, at BlackTie, everyone within our agency walls is a designer in their own right. And there are a few principles we believe—and we believe everyone should believe—about our design craft. These truths drive us, motivate us, and ultimately help us redefine the power of design. We’re big believers in doing right by our neighbors. After all, we grew up in the Twin Cities and we believe this place has much to offer. So we do what we can to support the community we love.</p>
+					<p>Women Who Code es una organización internacional no lucrativa con sede en San Francisco, dedicada a inspirar a las mujeres a sobresalir en carreras tecnológicas y a proporcionar capacitación sobre temas relacionados con tecnología. Actualmente Women Who Code tiene presencia en el estado de Colima, Yucatán y DF, siendo Yucatán el segundo estado de la República Mexicana con este tipo de iniciativa.</p>
 				</div><!-- col-lg-6 -->
 				
 				<div class="col-lg-6">
-					<p>Over the past four years, we’ve provided more than $1 million in combined cash and pro bono support to Way to Grow, an early childhood education and nonprofit organization. Other community giving involvement throughout our agency history includes pro bono work for more than 13 organizations, direct giving, a scholarship program through the Minneapolis College of Art & Design, board memberships, and ongoing participation in the Keystone Club, which gives five percent of our company’s earnings back to the community each year.</p>
+					<p>El objetivo de Women Who Code Mérida es ayudar a las mujeres a desarrollar competencias que permitan apropiarse de la tecnología y utilizarla en toda su extensión para satisfacer sus necesidades y las demandas de la sociedad: familiarizarse con la programación, gestión de la información, producción de contenidos y medios digitales.</p>
 				</div><!-- col-lg-6 -->
 			</div><!-- row -->
 		</div><!-- container -->
@@ -113,94 +91,46 @@
 		<!-- ==== SECTION DIVIDER1 -->
 		<section class="section-divider textdivider divider1">
 			<div class="container">
-				<h1>DESIGN EXPAND BOUNDARIES</h1>
+				<h1>MISIÓN</h1>
 				<hr>
-				<p>To achieve real change, we have to expand boundaries. Because the Wild West of what-could-be is unexplored but rife with opportunity.</p>
+				<p>Proporcionar una vista hacia la tecnología. Capacitar y enseñar sobre temas relacionados con tecnología a cualquier mujer de la Ciudad de Mérida Yucatán que se encuentre interesada, sin necesidad de tener experiencia previa en programación o cualquier tema sobre tecnología.</p>
 			</div><!-- container -->
 		</section><!-- section -->
 		
-		
-		<!-- ==== SERVICES ==== -->
-		<div class="container" id="services" name="services">
-			<br>
-			<br>
-			<div class="row">
-				<h2 class="centered">ONE BRAND, ONE VOICE.</h2>
-				<hr>
-				<br>
-				<div class="col-lg-offset-2 col-lg-8">
-					<p>Employees and consumers. Two halves of a brand’s entirety, the whole of a brand’s audience. Sometimes these two halves have very different viewpoints, creating a weak spot in the brand story. Weakness tarnishes credibility. Brands that aren’t credible aren’t viable.
-					</p>
-					<p>We squash weakness by designing the whole brand story. It’s crafted around the truism held by employees and consumers to create an experience that connects from the inside out.</p>
-					<p>By being true to the brand we represent, we elevate the audiences’ relationship to it. Like becomes love becomes a passion. Passion becomes advocacy. And we see the brand blossom from within, creating a whole story the audience embraces. That’s when the brand can truly flex its muscles.</p>
-				</div><!-- col-lg -->
-			</div><!-- row -->
-			
-			<div class="row">
-				<h2 class="centered">MOBILE FIRST THINKING, ALWAYS.</h2>
-				<hr>
-				<br>
-				<div class="col-lg-offset-2 col-lg-8">
-					<img class="img-responsive" src="assets/img/iphone.png" alt="">
-				</div><!-- col -->
-			</div><!-- row -->
-		</div><!-- container -->
-  		
-
-		<!-- ==== SECTION DIVIDER2 -->
-		<section class="section-divider textdivider divider2">
-			<div class="container">
-				<h1>DESIGN IS AN INTERACTION</h1>
-				<hr>
-				<p>To develop a deeper and more meaningful connection with consumers, we believe design must invite them to take part in the conversation.</p>
-			</div><!-- container -->
-		</section><!-- section -->
 
 		<!-- ==== TEAM MEMBERS ==== -->
-		<div class="container" id="team" name="team">
+		<div class="container" id="courses" name="courses">
 		<br>
 			<div class="row white centered">
-				<h1 class="centered">MEET OUR AWESOME TEAM</h1>
+				<h1 class="centered">CURSOS</h1>
 				<hr>
 				<br>
 				<br>
 				<div class="col-lg-3 centered">
 					<img class="img img-circle" src="assets/img/team/team01.jpg" height="120px" width="120px" alt="">
 					<br>
-					<h4><b>Mike Arney</b></h4>
-					<a href="#" class="icon icon-twitter"></a>
-					<a href="#" class="icon icon-facebook"></a>
-					<a href="#" class="icon icon-flickr"></a>
+					<h4><b>RubyOnRails</b></h4>
 					<p>Mike combines an expert technical knowledge with a real eye for design. Working with clients from a wide range of industries, he fully understands client objectives when working on a project, large or small.</p>
 				</div><!-- col-lg-3 -->
 				
 				<div class="col-lg-3 centered">
 					<img class="img img-circle" src="assets/img/team/team02.jpg" height="120px" width="120px" alt="">
 					<br>
-					<h4><b>Tim Davies</b></h4>
-					<a href="#" class="icon icon-twitter"></a>
-					<a href="#" class="icon icon-facebook"></a>
-					<a href="#" class="icon icon-flickr"></a>
+					<h4><b>Java</b></h4>
 					<p>Tim is an experienced marcoms practitioner and manages projects from inception to delivery. He understands the synergy between great design and commercial effectiveness which shines through on every project.</p>
 				</div><!-- col-lg-3 -->
 				
 				<div class="col-lg-3 centered">
 					<img class="img img-circle" src="assets/img/team/team03.jpg" height="120px" width="120px" alt="">
 					<br>
-					<h4><b>Michele Lampa</b></h4>
-					<a href="#" class="icon icon-twitter"></a>
-					<a href="#" class="icon icon-facebook"></a>
-					<a href="#" class="icon icon-flickr"></a>
+					<h4><b>Baby Steps</b></h4>
 					<p>Be a creative director is a hard task, but Michele loves what she does. Her combination of knowledge and expertise is an important pillar in our agency.</p>
 				</div><!-- col-lg-3 -->
 				
 				<div class="col-lg-3 centered">
 					<img class="img img-circle" src="assets/img/team/team04.jpg" height="120px" width="120px" alt="">
 					<br>
-					<h4><b>Jaye Smith</b></h4>
-					<a href="#" class="icon icon-twitter"></a>
-					<a href="#" class="icon icon-facebook"></a>
-					<a href="#" class="icon icon-flickr"></a>
+					<h4><b>Google Analitycs</b></h4>
 					<p>Jaye began making websites when animated logos and scrolling text were cool, but has since found a love for simplicity, creating websites that are a pleasure to browse. Monkey Island Fan.</p>
 				</div><!-- col-lg-3 -->
 				
@@ -235,7 +165,7 @@
 		</section><!-- section -->
 		
 		<!-- ==== PORTFOLIO ==== -->
-		<div class="container" id="portfolio" name="portfolio">
+		<div class="container" id="events" name="events">
 		<br>
 			<div class="row">
 				<br>
@@ -366,11 +296,11 @@
 		</section><!-- section -->
 		
 		<!-- ==== BLOG ==== -->
-		<div class="container" id="blog" name="blog">
+		<div class="container" id="leaders" name="leaders">
 		<br>
 			<div class="row">
 				<br>
-				<h1 class="centered">WE ARE STORYTELLERS</h1>
+				<h1 class="centered">LÍDERES</h1>
 				<hr>
 				<br>
 				<br>
@@ -480,7 +410,7 @@
 
 		<div id="footerwrap">
 			<div class="container">
-				<h4>Created by <a href="http://blacktie.co">BlackTie.co</a> - Copyright 2014</h4>
+				<h4>Creado por <a href="https://www.facebook.com/WomenWhoCodeMerida">Women Who Code</a> - Copyright 2015</h4>
 			</div>
 		</div>
 
