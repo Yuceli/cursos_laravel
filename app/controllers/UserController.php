@@ -65,7 +65,7 @@ class UserController extends \BaseController {
 	 */
 	public function show($id)
 	{
-		$user = user::find($id);
+		$user = User::find($id);
 		return View::make('user.show')->with('user', $user);
 	}
 
