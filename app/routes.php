@@ -16,4 +16,17 @@ Route::get('/', function()
 	return View::make('hello');
 });
 
+Route::get('login', function()
+{
+	return View::make('user.login');
+});
+
+Route::post('/auth/login','UserController@login');
+
 Route::resource('user', 'UserController');
+
+Route::resource('workshops','WorkshopController');
+
+Route::get('workshops/sign/{ws_id}','WorkshopController@sign');
+
+Route::get('workshops/quit/{ws_id}','WorkshopController@quit');

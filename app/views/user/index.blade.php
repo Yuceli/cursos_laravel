@@ -30,6 +30,7 @@
         			<td>Nombre</td>
         			<td>Email</td>
         			<td>Nivel</td>
+                                <td>Talleres</td>
         			<td>Acción</td>
         		</tr>
         	</thead>
@@ -41,6 +42,13 @@
         			<td>{{ $value->name }}</td>
         			<td>{{ $value->email }}</td>
         			<td>{{ $value->level }}</td>
+                                <td>
+                                        <ul>
+                                                @foreach($value->workshops as $workshop)
+                                                        <li>{{ $workshop->title }}</li>
+                                                @endforeach
+                                        </ul>
+                                </td>
 
         			<td>
                                         {{ Form::open(array('url' => 'user/' . $value->id, 'class' => 'pull-right')) }}

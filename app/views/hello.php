@@ -52,6 +52,7 @@
 			<li> <a href="#courses" class="smoothScroll"> Cursos</a></li>
 			<li> <a href="#events" class="smoothScroll"> Eventos</a></li>
 			<li> <a href="#contact" class="smoothScroll"> Contacto</a></li>
+			<li> <a href="login" class="navbar-right pull-right">Iniciar sesión</a></li>
         </div><!--/.nav-collapse -->
       </div>
     </div>
@@ -145,6 +146,7 @@
 						<h2>Aprendé a programar!</h2>
 						<p>Aprender a programar es útil sin importar lo que quieras hacer en tu vida profesional.
 						<br> - Arianna Huffington</p>
+						<a href="workshops"><button class="btn btn-info">Ver todos los cursos</button></a>
 					</div>					
 				</div><!-- row -->
 			</div>

@@ -132,4 +132,15 @@ class UserController extends \BaseController {
 	}
 
 
+	public function login(){
+		// TODO autenticar al usuario
+		$email = Input::get('email');
+		$password = Input::get('password');
+		$credentials = [
+			'email' 	=> $email,
+			'password'	=> $password
+		];
+		return  Redirect::to('');
+	}
+
 }
