@@ -1,30 +1,17 @@
 <?php
 
-use Faker\Factory as Faker;
+class UserTableSeeder extends Seeder
+{
 
-class UserTableSeeder extends Seeder {
-
-    public function run()
-    {
-
-    	$faker = Faker::create();
-
-        DB::table('users')->delete();
-
-        for ($i=0; $i < 100; $i++) { 
-        	User::create(
-	        	array(
-	        		'name'		=> 	$faker->firstName,
-					'nickname'	=>  $faker->userName,
-					'password'	=>	$faker->password,
-					'role'		=>	$faker->randomElement($array = array ('admin','user')),
-					'email'		=>	$faker->email,
-					'level'		=>	$faker->numberBetween(1,3)
-	        	)
-        	);
-        }
-    }
-
+public function run()
+{
+    DB::table('users')->delete();
+    User::create(array(
+        'name'     => 'Yuceli Polanco',
+        'nickname' => 'Yuceli Polanco',
+        'email'    => 'yuceli.polanco@gmail.com',
+        'password' => Hash::make('awesome'),
+    ));
 }
 
-			
+}

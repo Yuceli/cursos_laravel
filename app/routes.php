@@ -17,3 +17,11 @@ Route::get('/', function()
 });
 
 Route::resource('user', 'UserController');
+
+// route to show the login form
+Route::get('login', array('uses' => 'UserController@showLogin'));
+
+// route to process the form
+Route::post('login', array('uses' => 'UserController@doLogin'));
+
+Route::get('logout', array('uses' => 'UserController@doLogout'));
