@@ -16,36 +16,48 @@
   <link href="assets/css/login.css" rel="stylesheet">
   <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
-  
+
   <script src="assets/js/jquery.min.js"></script>
   <script type="text/javascript" src="assets/js/modernizr.custom.js"></script>
-  
+
   <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="assets/js/html5shiv.js"></script>
-      <script src="assets/js/respond.min.js"></script>
-      <![endif]-->
-    </head>
+<!--[if lt IE 9]>
+  <script src="assets/js/html5shiv.js"></script>
+  <script src="assets/js/respond.min.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+
+  <div class="wrapper">
+    {{ Form::open(['url' => 'login', 'autocomplete' => 'off', 'class'=> 'form-signin', 'role' => 'form']) }}
+
+    @if(Session::has('error_message'))
+    <div class="alert alert-danger">
+      <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+      {{ Session::get('error_message') }}
+    </div>    
+    @endif    
+    <h2 class="form-signin-heading">Please login</h2>
 
 
-    <div class="wrapper">
-    {{ Form::open(array('url' => 'login', 'class'=>'form-signin')) }}
-     <h2 class="form-signin-heading">Please login</h2>
-
-    <!-- if there are login errors, show them here -->
     <p>
-      {{ $errors->first('email') }}
-      {{ $errors->first('password') }}
+      {{ Form::text('nickname', 'Nickname', ['class' => 'form-control']) }}
     </p>
 
     <p>
-      {{ Form::text('email', Input::old('email'), array('placeholder' => 'some@example.com', 'class' => 'form-control')) }}
+      {{ Form::password('password', ['class' => 'form-control', 'placeholder' => 'password']) }}
     </p>
 
-    <p>
-      {{ Form::password('password', array('class' => 'form-control')) }}
-    </p>
-
-    <p>{{ Form::submit('Login', array('class' => 'btn btn-lg btn-primary btn-block'))  }}</p>
-    {{ Form::close() }}
+    <div class="checkbox">
+      <label>
+        {{ Form::checkbox('remember', true) }} Remember me
+      </label>
     </div>
+
+    <p>{{ Form::submit('Login', ['class' => 'btn btn-lg btn-primary btn-block'])  }}</p>
+    {{ Form::close() }}
+  </div>
+
+  <body>
+    </html>    

@@ -13,8 +13,9 @@
 			</div>
 
 			<ul class="nav navbar-nav">
-				<li><a href="{{URL::to('user')}}">Ver todos los usuarios</a></li>
-				<li><a href="{{URL::to('user/create')}}">Crear nuevo usuario</a>
+				<li><a href="{{ URL::to('user') }}">Ver todos los usuarios</a></li>
+				<li><a href="{{ URL::to('user/create') }}">Crear nuevo usuario</a>
+                                <li><a href="{{ action('UserController@doLogout') }}">Cerrar sesión</a>
 			</ul>
 		</nav>
 

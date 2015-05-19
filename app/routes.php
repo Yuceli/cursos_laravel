@@ -16,12 +16,19 @@ Route::get('/', function()
 	return View::make('hello');
 });
 
-Route::resource('user', 'UserController');
+
 
 // route to show the login form
-Route::get('login', array('uses' => 'UserController@showLogin'));
+Route::get('login', 'UserController@showLogin');
 
 // route to process the form
-Route::post('login', array('uses' => 'UserController@doLogin'));
+Route::post('login', 'UserController@doLogin');
 
-Route::get('logout', array('uses' => 'UserController@doLogout'));
+Route::get('logout', 'UserController@doLogout');
+
+
+/*Ruta privada solo para usuarios autenticados*/
+Route::group(['before' => 'auth'], function()
+{
+	Route::resource('user', 'UserController');
+});
