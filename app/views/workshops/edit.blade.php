@@ -28,7 +28,6 @@
 			{{ Form::text('end_date', null, array('class' => 'form-control')) }}
 		</div>
 
-
 		{{ Form::submit('Cambios guardados con exito', array('class' => 'btn btn-primary')) }}
 
 		{{ Form::close() }}
