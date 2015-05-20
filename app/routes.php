@@ -17,18 +17,18 @@ Route::get('/', function()
 });
 
 
-
-// route to show the login form
 Route::get('login', 'UserController@showLogin');
 
-// route to process the form
 Route::post('login', 'UserController@doLogin');
 
 Route::get('logout', 'UserController@doLogout');
+
+
 
 
 /*Ruta privada solo para usuarios autenticados*/
 Route::group(['before' => 'auth'], function()
 {
 	Route::resource('user', 'UserController');
+	Route::resource('workshop', 'WorkshopController');
 });
