@@ -10,23 +10,21 @@
 | and give it the Closure to execute when that URI is requested.
 |
 */
-
+//Usada
 Route::get('/', function()
 {
 	return View::make('hello');
 });
 
-Route::get('login', function()
+Route::get('login', 'UserController@showLogin');
+
+Route::post('login', 'UserController@doLogin');
+
+Route::get('logout', 'UserController@doLogout');
+
+/*Ruta privada solo para usuarios autenticados*/
+Route::group(['before' => 'auth'], function()
 {
-	return View::make('user.login');
+	Route::resource('user', 'UserController');
+	Route::resource('workshop', 'WorkshopController');
 });
-
-Route::post('/auth/login','UserController@login');
-
-Route::resource('user', 'UserController');
-
-Route::resource('workshops','WorkshopController');
-
-Route::get('workshops/sign/{ws_id}','WorkshopController@sign');
-
-Route::get('workshops/quit/{ws_id}','WorkshopController@quit');

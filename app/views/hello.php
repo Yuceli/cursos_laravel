@@ -1,4 +1,4 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -16,9 +16,6 @@
     <link href="assets/css/main.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/icomoon.css">
     <link href="assets/css/animate-custom.css" rel="stylesheet">
-
-
-    
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
     
@@ -47,12 +44,18 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li><a href="#home" class="smoothScroll">Inicio</a></li>
+            <li class="active"><a href="#home" class="smoothScroll">Inicio</a></li>
 			<li> <a href="#about" class="smoothScroll"> Nosotros</a></li>
 			<li> <a href="#courses" class="smoothScroll"> Cursos</a></li>
 			<li> <a href="#events" class="smoothScroll"> Eventos</a></li>
 			<li> <a href="#contact" class="smoothScroll"> Contacto</a></li>
 			<li> <a href="login" class="navbar-right pull-right">Iniciar sesión</a></li>
+		</ul>
+
+		 <ul class="nav navbar-nav pull-right">
+            <li><a href="http://localhost/cursos_laravel/public/login" class="smoothScroll"> LogIn</a></li>
+			<li> <a href="#register" class="smoothScroll"> Registro</a></li>
+		</ul> 
         </div><!--/.nav-collapse -->
       </div>
     </div>
