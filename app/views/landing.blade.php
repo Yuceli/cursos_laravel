@@ -45,7 +45,7 @@
           <ul class="nav navbar-nav">
             <li class="active"><a href="#home" class="smoothScroll">Inicio</a></li>
 			<li> <a href="#about" class="smoothScroll"> Nosotros</a></li>
-			<li> <a href="#courses" class="smoothScroll"> Cursos</a></li>
+			<li> <a href="#workshops" class="smoothScroll"> Talleres</a></li>
 			<li> <a href="#events" class="smoothScroll"> Eventos</a></li>
 			<li> <a href="#contact" class="smoothScroll"> Contacto</a></li>
 		</ul>
@@ -97,36 +97,46 @@
 		</section><!-- section -->
 		
 		<!-- ==== TEAM MEMBERS ==== -->
-		<div class="container" id="courses" name="courses">
+		<div class="container" id="workshops" name="workshops">
 		<br>
 			<div class="row white centered">
-				<h1 class="centered">CURSOS</h1>
+				<h1 class="centered">TALLERES POPULARES</h1>
 				<hr>
 				<br>
 				<br>
-				<div class="col-lg-3 centered">
+				<div class="col-lg-4 centered">
 					<br>
-					<h4><b>RubyOnRails</b></h4>
-					<p>Mike combines an expert technical knowledge with a real eye for design. Working with clients from a wide range of industries, he fully understands client objectives when working on a project, large or small.</p>
+					<h4><b>Ruby</b></h4>
+					<p>Ruby es un lenguaje de programación interpretado, reflexivo y orientado a objetos.</p>
+					<code>puts "Hola mundo"</code>
+					<p>Ruby sigue el "principio de la menor sorpresa", lo que significa que el lenguaje debe comportarse de tal
+					manera que minimice la confusión de los usuarios experimentados.</p>
 				</div><!-- col-lg-3 -->
 				
-				<div class="col-lg-3 centered">
-					<br>
-					<h4><b>Java</b></h4>
-					<p>Tim is an experienced marcoms practitioner and manages projects from inception to delivery. He understands the synergy between great design and commercial effectiveness which shines through on every project.</p>
-				</div><!-- col-lg-3 -->
-				
-				<div class="col-lg-3 centered">
+
+				<div class="col-lg-4 centered">
 					<br>
 					<h4><b>Baby Steps</b></h4>
-					<p>Be a creative director is a hard task, but Michele loves what she does. Her combination of knowledge and expertise is an important pillar in our agency.</p>
+					<p>En este tema se pretende dar un panorama general de la programación.
+					Empezamos hablando del concepto más básico para poco a poco empezar a
+					hablar de lenguajes de programación. </p>
+					<p>Sintaxis - Variables - Arreglos - Listas enlazadas  - Arreglos multidimensionales 
+					- Dependencias /Librerías - Funciones/Métodos</p>	
 				</div><!-- col-lg-3 -->
 				
-				<div class="col-lg-3 centered">
+
+				<div class="col-lg-4 centered">
 					<br>
-					<h4><b>Google Analitycs</b></h4>
-					<p>Jaye began making websites when animated logos and scrolling text were cool, but has since found a love for simplicity, creating websites that are a pleasure to browse. Monkey Island Fan.</p>
+					<h4><b>Java</b></h4>
+					<p>Java es un lenguaje de programación de propósito general, concurrente, orientado a objetos...</p>
+					<code>
+					    System.out.println("Hola mundo");
+					</code>
+					<p>Orientado a objetos (“OO”), se refiere a un método de programación
+					y al diseño del lenguaje. Aunque hay muchas interpretaciones para OO, una primera idea es diseñar 
+					el software de forma que los distintos tipos de datos que usen estén unidos a sus operaciones</p>
 				</div><!-- col-lg-3 -->
+
 				
 			</div><!-- row -->
 		</div><!-- container -->
@@ -178,10 +188,7 @@
 				<div class="col-md-4 ">
 			    	<div class="grid mask">
 						<figure>
-							<img class="img-responsive" src="assets/img/portfolio/folio01.jpg" alt="">
-							<figcaption>
-								<h5>DASHBOARD</h5>
-							</figcaption><!-- /figcaption -->
+							<img class="img-responsive" src="assets/img/portfolio/img01.jpg" alt="">
 						</figure><!-- /figure -->
 			    	</div><!-- /grid-mask -->
 				</div><!-- /col -->
@@ -191,10 +198,7 @@
 				<div class="col-md-4">
 			    	<div class="grid mask">
 						<figure>
-							<img class="img-responsive" src="assets/img/portfolio/folio02.jpg" alt="">
-							<figcaption>
-								<h5>UI DESIGN</h5>
-							</figcaption><!-- /figcaption -->
+							<img class="img-responsive" src="assets/img/portfolio/img02.jpg" alt="">
 						</figure><!-- /figure -->
 			    	</div><!-- /grid-mask -->
 				</div><!-- /col -->
@@ -203,10 +207,7 @@
 				<div class="col-md-4">
 			    	<div class="grid mask">
 						<figure>
-							<img class="img-responsive" src="assets/img/portfolio/folio03.jpg" alt="">
-							<figcaption>
-								<h5>ANDROID PAGE</h5>
-							</figcaption><!-- /figcaption -->
+							<img class="img-responsive" src="assets/img/portfolio/img03.jpg" alt="">
 						</figure><!-- /figure -->
 			    	</div><!-- /grid-mask -->
 				</div><!-- /col -->
@@ -217,10 +218,7 @@
 				<div class="col-md-4 ">
 			    	<div class="grid mask">
 						<figure>
-							<img class="img-responsive" src="assets/img/portfolio/folio04.jpg" alt="">
-							<figcaption>
-								<h5>PROFILE</h5>
-							</figcaption><!-- /figcaption -->
+							<img class="img-responsive" src="assets/img/portfolio/img04.jpg" alt="">
 						</figure><!-- /figure -->
 			    	</div><!-- /grid-mask -->
 				</div><!-- /col -->
@@ -229,10 +227,7 @@
 				<div class="col-md-4">
 			    	<div class="grid mask">
 						<figure>
-							<img class="img-responsive" src="assets/img/portfolio/folio05.jpg" alt="">
-							<figcaption>
-								<h5>TWITTER STATUS</h5>
-							</figcaption><!-- /figcaption -->
+							<img class="img-responsive" src="assets/img/portfolio/img05.jpg" alt="">
 						</figure><!-- /figure -->
 			    	</div><!-- /grid-mask -->
 				</div><!-- /col -->
@@ -241,10 +236,7 @@
 				<div class="col-md-4">
 			    	<div class="grid mask">
 						<figure>
-							<img class="img-responsive" src="assets/img/portfolio/folio06.jpg" alt="">
-							<figcaption>
-								<h5>PHONE MOCKUP</h5>
-							</figcaption><!-- /figcaption -->
+							<img class="img-responsive" src="assets/img/portfolio/img06.jpg" alt="">
 						</figure><!-- /figure -->
 			    	</div><!-- /grid-mask -->
 				</div><!-- /col -->
@@ -273,15 +265,16 @@
 				<br>
 
                 <div class="col-lg-8">
-					<h3>Apóyanos</h3>
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+					<h3>Únete</h3>
+					<p>Forma parte de una de las comunidades de mujeres apasionadas por la programación y las tecnologías.
+					Invita a tus amigas y se parte de la revolución de las mujeres en la tecnologia.</p>
 				</div><!-- col -->
 
 
 				<div class="col-lg-4">
 					<h3>Información de contacto</h3>
 					<p>
-						<span class="icon icon-envelop"></span> <a href="#"> contacto@wwc.com</a> <br/>
+						<span class="icon icon-envelop"></span> <a href="#"> yuzz@womenwhocode.com</a> <br/>
 						<span class="icon icon-twitter"></span> <a href="https://twitter.com/WWCodeMID"> @WWCodeMID </a> <br/>
 						<span class="icon icon-facebook"></span> <a href="https://www.facebook.com/WomenWhoCodeMerida"> WomenWhoCodeMerida </a> <br/>
 					</p>
@@ -295,16 +288,6 @@
 				<h4>Creado por <a href="https://www.facebook.com/WomenWhoCodeMerida">Women Who Code</a> - Copyright 2015</h4>
 			</div>
 		</div>
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-		
-
-	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="assets/js/retina.js"></script>
-	<script type="text/javascript" src="assets/js/jquery.easing.1.3.js"></script>
-    <script type="text/javascript" src="assets/js/smoothscroll.js"></script>
-	<script type="text/javascript" src="assets/js/jquery-func.js"></script>
+	
   </body>
 </html>

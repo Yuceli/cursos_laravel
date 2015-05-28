@@ -13,6 +13,7 @@
     <link href="assets/css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
+    <link href="assets/css/main.css" rel="stylesheet">
     <link href="assets/css/login.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
@@ -117,8 +118,25 @@
                     <div class="col-xs-12 col-md-6"><a href="login" class="btn btn-success btn-block btn-lg">Login</a></div>
                 </div>
             {{Form::close()}}
-        
     </div>
+</div>
 
-    <body>
-</html>    
+<br><br><br>
+<div id="footerwrap">
+            <div class="container">
+                <h4>Creado por <a href="https://www.facebook.com/WomenWhoCodeMerida">Women Who Code</a> - Copyright 2015</h4>
+            </div>
+        </div>
+       
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+        
+
+    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="assets/js/smoothscroll.js"></script>
+    <script type="text/javascript" src="assets/js/jquery-func.js"></script>
+  </body>
+</html>
