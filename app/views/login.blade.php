@@ -50,7 +50,7 @@
                         <li><a href="logout" class="navbar-right pull-right">Cerrar sesión</a></li>
                         @else
                         <li><a href="login"> Iniciar sesión</a></li>
-                        <li> <a href="#register" class="smoothScroll"> Registro</a></li>
+                        <li> <a href="register" class="smoothScroll"> Registro</a></li>
                         @endif
                     </ul> 
                 </div>

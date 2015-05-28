@@ -13,14 +13,20 @@
 
 Route::get('/', function()
 {
-	return View::make('hello');
+	return View::make('landing');
 });
 
-Route::get('login', 'UserController@showLogin');
+Route::get('register', 'RegisterController@showRegister');
 
-Route::post('login', 'UserController@doLogin');
+Route::post('register','RegisterController@registerUser');
 
-Route::get('logout', 'UserController@doLogout');
+Route::get('login',  'LoginController@showLogin');
+
+Route::post('login', 'LoginController@doLogin');
+
+Route::get('logout', 'LoginController@doLogout');
+
+
 
 /*Ruta privada solo para usuarios autenticados*/
 Route::group(['before' => 'auth'], function()

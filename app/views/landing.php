@@ -52,7 +52,7 @@
 
 		 <ul class="nav navbar-nav pull-right">
             <li><a href="login" class="smoothScroll"> Iniciar sesión</a></li>
-			<li> <a href="#register" class="smoothScroll"> Registro</a></li>
+			<li> <a href="register" class="smoothScroll"> Registro</a></li>
 		</ul> 
         </div><!--/.nav-collapse -->
       </div>

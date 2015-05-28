@@ -51,7 +51,7 @@
           </ul>
 
           <ul class="nav navbar-nav pull-right">
-            <li> <a href="{{ action('UserController@doLogout') }}" class="smoothScroll"> Cerrar sesión</a></li>
+            <li> <a href="{{ action('LoginController@doLogout') }}" class="smoothScroll"> Cerrar sesión</a></li>
           </ul> 
         </div><!--/.nav-collapse -->
       </div>
