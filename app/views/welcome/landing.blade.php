@@ -206,23 +206,29 @@
 							<br>
 
 							<div class="col-lg-8">
-								<h3>Únete</h3>
+								<h3>Únete y comparte</h3>
 								<p>Forma parte de una de las comunidades de mujeres apasionadas por la programación y las tecnologías.
-									Invita a tus amigas y se parte de la revolución de las mujeres en la tecnologia.</p>
-								</div><!-- col -->
+									Invita a tus amigas y se parte de la revolución de las mujeres en la tecnologia.
+
+									<a href="http://twitter.com/share?url=https://twitter.com/WWCodeMID&text=¡Únete a Women Who Code Mérida!&hashtags=@wwc" target="_blank">
+										<img id="social" src="https://ffmcardoso.files.wordpress.com/2015/03/1427164448_circle-twitter-32.png" class="social-icons" alt="Twitter"></a>
+										<a href="http://www.facebook.com/sharer.php?u=https://www.facebook.com/WomenWhoCodeMerida" target="_blank">
+											<img id="social" src="http://www.bio-pharminc.com/images/icon_facebook.png" class="social-icons" alt="Facebook"></a>
+										</p>
+									</div><!-- col -->
 
 
-								<div class="col-lg-4">
-									<h3>Información de contacto</h3>
-									<p>
-										<span class="icon icon-envelop"></span> <a href="#"> yuzz@womenwhocode.com</a> <br/>
-										<span class="icon icon-twitter"></span> <a href="https://twitter.com/WWCodeMID"> @WWCodeMID </a> <br/>
-										<span class="icon icon-facebook"></span> <a href="https://www.facebook.com/WomenWhoCodeMerida"> WomenWhoCodeMerida </a> <br/>
-									</p>
-								</div><!-- col -->
-							</div><!-- row -->
+									<div class="col-lg-4">
+										<h3>Información de contacto</h3>
+										<p>
+											<span class="icon icon-envelop"></span> <a href="#"> yuzz@womenwhocode.com</a> <br/>
+											<span class="icon icon-twitter"></span> <a href="https://twitter.com/WWCodeMID"> @WWCodeMID </a> <br/>
+											<span class="icon icon-facebook"></span> <a href="https://www.facebook.com/WomenWhoCodeMerida"> WomenWhoCodeMerida </a> <br/>
+										</p>
+									</div><!-- col -->
+								</div><!-- row -->
 
-						</div><!-- container -->
+							</div><!-- container -->
 
 
-						@include('layouts.footer')
+							@include('layouts.footer')

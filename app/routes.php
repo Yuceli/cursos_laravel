@@ -26,7 +26,7 @@ Route::post('login', 'LoginController@doLogin');
 
 Route::get('logout', 'LoginController@doLogout');
 
-
+Route::when('*', 'csrf', array('post', 'put', 'delete'));
 
 /*Ruta privada solo para usuarios autenticados*/
 Route::group(['before' => 'auth'], function()
