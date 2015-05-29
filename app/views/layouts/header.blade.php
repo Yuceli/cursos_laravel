@@ -50,9 +50,8 @@
             @endif
             <li> <a href="{{ URL::to('workshops') }}" class="smoothScroll"> Talleres</a></li>
           </ul>
-
           <ul class="nav navbar-nav pull-right">
-            <li><a href="" class="smoothScroll"> Hola:</a></li>
+            <li><a href="#!" class="smoothScroll">¡Hola: {{ Auth::user()->name }}!</a></li>
             <li><a href="{{ action('LoginController@doLogout') }}" class="smoothScroll"> Cerrar sesión</a></li>
           </ul> 
         </div><!--/.nav-collapse -->

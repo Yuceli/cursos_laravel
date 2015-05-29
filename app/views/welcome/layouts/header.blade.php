@@ -17,11 +17,9 @@
   <link href="{{ URL::asset('assets/css/login.css') }}" rel="stylesheet">
   <link rel="stylesheet" href="{{ URL::asset('assets/css/icomoon.css') }}">
   <link href="{{ URL::asset('assets/css/animate-custom.css') }}" rel="stylesheet">
+  <link href="{{ URL::asset('assets/css/responsive-grid.css') }}" rel="stylesheet">
   <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
-
-  <script src="{{ URL::asset('assets/js/jquery.min.js') }}"></script>
-  <script type="text/javascript" src="{{ URL::asset('assets/js/modernizr.custom.js') }}"></script>
 
   <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!--[if lt IE 9]>
@@ -52,9 +50,14 @@
           </ul>
 
           <ul class="nav navbar-nav pull-right">
+          @if(Auth::user())
+            <li><a href="#!" class="smoothScroll"> ¡Hola {{ Auth::user()->name }}!</a></li>
+            <li> <a href="logout" class="smoothScroll"> Cerrar sesión</a></li>
+          @else
             <li><a href="login" class="smoothScroll"> Iniciar sesión</a></li>
             <li> <a href="register" class="smoothScroll"> Registro</a></li>
-          </ul> 
+          @endif
+          </ul>
         </div><!--/.nav-collapse -->
       </div>
     </div>
