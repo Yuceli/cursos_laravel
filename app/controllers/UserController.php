@@ -114,7 +114,7 @@ class UserController extends BaseController {
  			$user->password  = Hash::make(Input::get('password'));
  			$user->email  = Input::get('email');
  			$user->level  = Input::get('level');
-			$user->role = (Input::get('role')=='1')? 'admin' : 'coder';
+			$user->role = Input::get('role');
  			$user->save();
 
  			Session::flash('message', 'Los cambios han sido guardados');
