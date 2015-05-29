@@ -13,7 +13,7 @@
 
 Route::get('/', function()
 {
-	return View::make('landing');
+	return View::make('welcome.landing');
 });
 
 Route::get('register', 'RegisterController@showRegister');

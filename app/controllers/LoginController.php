@@ -12,7 +12,7 @@ public function showLogin()
 		}
 
 	    //Si no hay sesión activa mostramos fomulario de login
-	    return View::make('login');
+	    return View::make('welcome.login');
 	}
 
 	public function doLogin()

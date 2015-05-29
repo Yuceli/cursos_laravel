@@ -23,7 +23,7 @@ class RegisterController extends BaseController {
 	*/
 	public function showRegister()
 	{
-		return View::make('register');
+		return View::make('welcome.register');
 	}
 
 

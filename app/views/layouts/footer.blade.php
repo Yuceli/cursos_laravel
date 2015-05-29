@@ -12,6 +12,5 @@
 	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="assets/js/jquery.easing.1.3.js"></script>
     <script type="text/javascript" src="assets/js/smoothscroll.js"></script>
-	<script type="text/javascript" src="assets/js/jquery-func.js"></script>
   </body>
 </html>
