@@ -1,9 +1,10 @@
 @include('layouts.header')
-<br><br><br><br>
+
 <div class="container">
+<div class="wrapper">	
 <div class="col-md-12">
 
-		<h1>Editar {{ $user->name}}</h1>
+		<h1>Editar: {{ $user->name}}</h1>
 
 		{{ HTML::ul($errors->all()) }}
 		{{ Form::model($user, array('route' => array('user.update', $user->id), 'method' => 'PUT')) }}
@@ -20,7 +21,7 @@
 
 		<div class="form-group">
 			{{ Form::label('password', 'Password')}}
-			{{ Form::password('password', Input::old('password'), array('class' => 'form-control')) }}
+			{{Form::password('password', array('id'=>'password','class'=>'form-control','placeholder'=>'Nueva Contraseña','tabindex'=>'7'))}}
 		</div>
 
 		<div class="form-group">
@@ -39,12 +40,15 @@
 			{{ Form::select('role', array('0' => 'Elegir rol', 'admin' => 'Administrador', 'coder' => 'Programadora'),
 			 null, array ('class' => 'form-control')) }}
 		</div>
-
-		{{ Form::submit('Cambios guardados con exito', array('class' => 'btn btn-primary')) }}
+        
+        <div class="form-group">
+		{{ Form::submit('Guardar cambios', array('class' => 'btn btn-primary')) }}
+		</div>
 
 		{{ Form::close() }}
 	</div>
 	</div>
+	</div>
 	
-</body>
-</html>
+
+@include('layouts.footer')

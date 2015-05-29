@@ -14,6 +14,7 @@
 
   <!-- Custom styles for this template -->
   <link href="{{ URL::asset('assets/css/main.css') }}" rel="stylesheet">
+  <link href="{{ URL::asset('assets/css/login.css') }}" rel="stylesheet">
   <link rel="stylesheet" href="{{ URL::asset('assets/css/icomoon.css') }}">
   <link href="{{ URL::asset('assets/css/animate-custom.css') }}" rel="stylesheet">
   <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
@@ -51,7 +52,8 @@
           </ul>
 
           <ul class="nav navbar-nav pull-right">
-            <li> <a href="{{ action('LoginController@doLogout') }}" class="smoothScroll"> Cerrar sesión</a></li>
+            <li><a href="" class="smoothScroll"> Hola:</a></li>
+            <li><a href="{{ action('LoginController@doLogout') }}" class="smoothScroll"> Cerrar sesión</a></li>
           </ul> 
         </div><!--/.nav-collapse -->
       </div>

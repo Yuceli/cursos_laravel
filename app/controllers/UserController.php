@@ -97,7 +97,6 @@ class UserController extends BaseController {
 		$rules = array (
 			'name'  => 'required',
 			'nickname' => 'required',
-			'password' => 'required',
 			'email' => 'required|email',
 			'level' => 'required',
 			'role'	=> 'required'

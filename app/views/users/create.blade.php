@@ -43,6 +43,5 @@
 		{{ Form::close() }}
 	</div>
 	</div>
-	
-</body>
-</html>
+
+@include('layouts.footer')

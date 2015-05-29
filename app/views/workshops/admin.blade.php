@@ -4,7 +4,7 @@
 <br>
 <br>
 <div class="container">
-	<h1 class="text-center">Todos nuestros cursos</h1>
+	<h1 class="text-center">Lista de talleres</h1>
     <a  href="{{ URL::to('workshops/create') }}" type="button" class="btn btn-primary">Crear nuevo taller</a>
     <br><br>
 	<div class="row">
