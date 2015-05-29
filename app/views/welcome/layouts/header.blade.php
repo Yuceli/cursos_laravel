@@ -51,7 +51,7 @@
 
           <ul class="nav navbar-nav pull-right">
           @if(Auth::user())
-            <li><a href="#!" class="smoothScroll"> ¡Hola {{ Auth::user()->name }}!</a></li>
+            <li><a href="{{ url('/workshops')}}" class="smoothScroll"> ¡Hola {{ Auth::user()->name }}!</a></li>
             <li> <a href="logout" class="smoothScroll"> Cerrar sesión</a></li>
           @else
             <li><a href="login" class="smoothScroll"> Iniciar sesión</a></li>

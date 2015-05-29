@@ -2,32 +2,21 @@
 
 class WorkshopController extends BaseController {
 
-/*
-|--------------------------------------------------------------------------
-| Default Home Controller
-|--------------------------------------------------------------------------
-|
-| You may wish to use controllers instead of, or in addition to, Closure
-| based routes. That's great! Here is an example controller method to
-| get you started. To route to this controller, just add the route:
-|
-|	Route::get('/', 'HomeController@showWelcome');
-|
-*/
 
-public function index()
-{
-    $user = Auth::user();
-    if($user->role == 'admin'){
-        $courses = Workshop::paginate(10);
-        return View::make('workshops.admin',compact('courses'));
+
+    public function index()
+    {
+        $user = Auth::user();
+        if($user->role == 'admin'){
+            $courses = Workshop::paginate(10);
+            return View::make('workshops.admin',compact('courses'));
+        }
+        else{
+            $subscribed  = $user->workshops;
+            $unsuscribed = Workshop::all()->diff($subscribed);
+            return View::make('workshops.coder',compact('subscribed','unsuscribed'));
+        }
     }
-    else{
-        $subscribed  = $user->workshops;
-        $unsuscribed = Workshop::all()->diff($subscribed);
-        return View::make('workshops.coder',compact('subscribed','unsuscribed'));
-    }
-}
 
 /**
 * Show the form for creating a new resource.

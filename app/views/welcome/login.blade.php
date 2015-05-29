@@ -5,7 +5,7 @@
         {{ Form::open(['url' => 'login', 'autocomplete' => 'off', 'class'=> 'form-signin', 'role' => 'form']) }}
 
         @if(Session::has('error_message'))
-        <div class="alert alert-danger">
+        <div class="alert alert-success">
             <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
             {{ Session::get('error_message') }}
         </div>    

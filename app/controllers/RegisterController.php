@@ -57,7 +57,7 @@ class RegisterController extends BaseController {
 		    return true;
 		});
 
-		//Se valida que el campo de apellido sea correcto.
+		//Se valida que el campo de nickname sea correcto.
 		Validator::extend('validNickname', function($attribute, $value, $parameters)
 		{
 			$rexSafety = '/[\^<,\"@\/\{\}\(\)\*\$%\?=>:\|;#]+/i';
@@ -125,12 +125,12 @@ class RegisterController extends BaseController {
 	    }
 	    else{
 	    	//Si la validación es correcta, se obtienen los datos del formulario y se registra exitosamente el usuario.
-			$user -> name = Input::get('name');
-			$user -> nickname = Input::get('nickname');
-			$user -> email = Input::get('email');
-			$user -> password = Hash::make(Input::get('password'));
-			$user -> role = 'coder';
-			$user -> save();
+			$user->name = Input::get('name');
+			$user->nickname = Input::get('nickname');
+			$user->email = Input::get('email');
+			$user->password = Hash::make(Input::get('password'));
+			$user->role = 'coder';
+			$user->save();
 
 			
 			return Redirect::to('login');

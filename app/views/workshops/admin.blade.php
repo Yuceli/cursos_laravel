@@ -1,15 +1,15 @@
 @include('layouts.header')
-<br>
-<br>
-<br>
-<br>
 <div class="container">
-	<h1 class="text-center">Lista de talleres</h1>
-    <a  href="{{ URL::to('workshops/create') }}" type="button" class="btn btn-primary">Crear nuevo taller</a>
-    <br><br>
+	<div class="wrapper">
+	<div class="row">
+	<div class="col-md-4"><h1 class="text-center">Lista de talleres</h1></div>	
+	<div class="col-md-2 wrapper-user">
+    <a href="{{ URL::to('workshops/create') }}" type="button" class="btn btn-primary">Crear nuevo taller</a>
+</div>
+    </div>
 	<div class="row">
 		@foreach($courses as $course)
-		<div class="col-md-4">
+		<div class="col-md-6">
 			<div class="thumbnail">
 				<div class="caption">
 					<h3>{{ $course->title }}</h3>
@@ -27,3 +27,5 @@
 	</div>
 	{{ $courses->links() }}
 </div>
+</div>
+@include('layouts.footer')

@@ -7,9 +7,9 @@
                         <div class="col-md-4"><h1>Lista de usuarios</h1></div>       
                         <div class="col-md-2 wrapper-user"><a href="{{ URL::to('user/create') }}" type="button" class="btn btn-primary">Dar de alta nuevo usuario</a></div></div>
                         <div class="row">
-                                <div class="col-xs-4 col-sm-6 col-md-12">  
+                                <div class="col-xs-6 col-sm-8 col-md-12">  
                                         @if (Session::has('message'))
-                                        <div class="alert alert-info">{{Session::get('message')}}</div>
+                                        <div class="alert alert-success">{{Session::get('message')}}</div>
                                         @endif
                                         {{ $user->links() }}
                                         <table class="table table-striped table-bordered">
