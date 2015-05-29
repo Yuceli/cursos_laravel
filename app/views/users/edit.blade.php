@@ -21,7 +21,7 @@
 
 		<div class="form-group">
 			{{ Form::label('password', 'Password')}}
-			{{Form::password('password', array('id'=>'password','class'=>'form-control','placeholder'=>'Nueva Contraseña','tabindex'=>'7'))}}
+			{{Form::password('password', array('id'=>'password','class'=>'form-control','placeholder'=>'Nueva Contraseña','tabindex'=>'7','required'))}}
 		</div>
 
 		<div class="form-group">
